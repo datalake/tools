@@ -1,3 +1,4 @@
+
 // Copyright 2016 The Data Lake Authors. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -36,4 +37,3 @@ func OpenUrlDatabase(cfg *config.Config) (error) {
 	glog.Infof("Opening URL database %q at %s", cfg.UrlFile, cfg.DatabasePath)
 	return nil
 }
-

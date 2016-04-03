@@ -140,4 +140,3 @@ func Load(file string) (*Config, error) {
 	}
 	return config, nil
 }
-
